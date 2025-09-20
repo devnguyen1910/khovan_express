@@ -1,0 +1,5 @@
+{
+  "name": "Kho Vận Express",
+  "description": "Một ứng dụng web hiện đại để quản lý kho và theo dõi vận chuyển, lấy cảm hứng từ các hệ thống logistics hiệu quả như Shopee Express. Cung cấp bảng điều khiển, quản lý hàng tồn kho và theo dõi lô hàng theo thời gian thực.",
+  "requestFramePermissions": []
+}
