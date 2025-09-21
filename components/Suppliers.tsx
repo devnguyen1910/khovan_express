@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { getSuppliers, getInventoryItems } from '../services/mockDataService';
+import { getSuppliers, getInventoryItems } from '../services/apiService';
 import { generateSupplierSuggestions } from '../services/geminiService';
 import { Supplier, InventoryItem, SupplierSuggestion } from '../types';
 

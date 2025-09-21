@@ -1,5 +1,5 @@
 import React, { useEffect, useState, Fragment } from 'react';
-import { getInventoryItems } from '../services/mockDataService';
+import { getInventoryItems } from '../services/apiService';
 import { generateInventorySummary } from '../services/geminiService';
 import { InventoryItem } from '../types';
 

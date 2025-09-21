@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { getShipments } from '../services/mockDataService';
+import { getShipments } from '../services/apiService';
 import { Shipment, ShipmentStatus } from '../types';
 
 const Shipments: React.FC = () => {

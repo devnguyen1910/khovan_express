@@ -14,6 +14,12 @@ export interface Shipment {
   status: ShipmentStatus;
   estimatedDelivery: string;
   weight: number; // in kg
+  actualDelivery?: string;
+  totalValue?: number;
+  shippingCost?: number;
+  priority?: string;
+  items?: any[];
+  notes?: string;
 }
 
 export interface InventoryItem {
@@ -24,6 +30,14 @@ export interface InventoryItem {
   location: string;
   imageUrl: string;
   supplier: string;
+  description?: string;
+  category?: string;
+  unit?: string;
+  unitPrice?: number;
+  status?: string;
+  minStockLevel?: number;
+  maxStockLevel?: number;
+  lastUpdated?: string;
 }
 
 export interface Supplier {
@@ -35,6 +49,13 @@ export interface Supplier {
   address: string;
   productsSupplied: number;
   rating: number; // from 1 to 5
+  category?: string;
+  status?: string;
+  paymentTerms?: string;
+  deliveryTime?: string;
+  totalOrders?: number;
+  totalValue?: number;
+  lastContact?: string;
 }
 
 export interface SupplierSuggestion {

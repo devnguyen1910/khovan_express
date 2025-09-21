@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
 import Card from './Card';
 import { BoxIcon, TruckIcon } from '../constants';
-import { getDashboardStats, getShipments } from '../services/mockDataService';
+import { getDashboardStats, getShipments } from '../services/apiService';
 import { Shipment, ShipmentStatus } from '../types';
 
 const Dashboard: React.FC = () => {
