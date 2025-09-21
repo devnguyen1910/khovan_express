@@ -36,3 +36,9 @@ export interface Supplier {
   productsSupplied: number;
   rating: number; // from 1 to 5
 }
+
+export interface SupplierSuggestion {
+  name: string;
+  specialty: string;
+  reason: string;
+}
